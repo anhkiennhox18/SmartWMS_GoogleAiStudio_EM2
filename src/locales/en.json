@@ -1,0 +1,301 @@
+{
+  "common": {
+    "nav": {
+      "tasks": "Tasks",
+      "picking": "Picking",
+      "analytics": "Analytics/Reports",
+      "profile": "Profile"
+    },
+    "status": {
+      "shift": "Shift",
+      "cloud_synced": "Cloud Synced",
+      "offline": "Offline"
+    },
+    "language": {
+      "vi": "Tiếng Việt",
+      "en": "English"
+    },
+    "logout": "Logout"
+  },
+  "auth": {
+    "title": "Welcome Back",
+    "subtitle": "SmartWMS - Intelligent Logistics Platform",
+    "email_label": "Email Address",
+    "email_placeholder": "Enter your email...",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password...",
+    "remember_me": "Remember me",
+    "forgot_password": "Forgot password?",
+    "submit_button": "SIGN IN TO SYSTEM",
+    "loading": "PROCESSING...",
+    "security_check": "Security check in progress...",
+    "invalid_jwt": "Invalid JWT token authorization."
+  },
+  "tasks": {
+    "system_label": "SYSTEM",
+    "title": "Today's Tasks",
+    "today_tasks": "Today's Tasks",
+    "subtitle": "ACTION NEEDED!",
+    "pending_count": "{{count}} PENDING TASKS",
+    "ai_detect_description": "Inspect incident Pallet PAL-9042 - Quarantine Zone C",
+    "received_time": "Received from system: {{time}} ago",
+    "received_from_system": "Received from system: {{time}} ago",
+    "received": {
+      "minutes": "Received from system: {{count}} minutes ago",
+      "hours": "Received from system: {{count}} hour ago"
+    },
+    "pick_location": "Zone A (Cool) - 12 Items",
+    "put_location": "Receiving Dock C - 5 Pallets",
+    "count_location": "Aisle 3 - Dry Zone",
+    "ai_detect_location": "Receiving Dock C - Inbound",
+    "types": {
+      "pick": "PICKING",
+      "put": "PUTAWAY",
+      "count": "COUNTING",
+      "ai_detect": "AI DAMAGE DETECT"
+    },
+    "type": {
+      "ai_vision": "AI Vision"
+    },
+    "status": {
+      "urgent": "Urgent",
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "ai_vision": "AI VISION"
+    },
+    "filter": {
+      "title": "Task Filter",
+      "priority": "PRIORITY",
+      "normal": "Normal",
+      "urgent": "Urgent",
+      "type": "TASK TYPE",
+      "pick": "Picking",
+      "put": "Putaway",
+      "count": "Counting",
+      "clear": "Clear Filters",
+      "apply": "Apply"
+    },
+    "actions": {
+      "start": "START",
+      "continue": "CONTINUE",
+      "enable_ai": "LAUNCH AI VISION",
+      "enable_ai_vision": "ENABLE AI VISION"
+    }
+  },
+  "checklist": {
+    "wave_id": "WAVE ID",
+    "overall_progress": "Overall Progress",
+    "items": "Items",
+    "status": {
+      "done": "Completed",
+      "scanning": "Scanning",
+      "pending": "Pending"
+    },
+    "actions": {
+      "continue": "CONTINUE PICKING"
+    }
+  },
+  "picking": {
+    "live_status": "LIVE",
+    "wave_title": "WAVE ID",
+    "target_title": "TARGET LOCATION",
+    "zone_info": "Cool Zone - Zone C",
+    "progress_title": "PROGRESS",
+    "progress_label": "{{current}}/{{total}} Items - {{percent}}%",
+    "items": "Items",
+    "target_location": "Target Location",
+    "scan_success": "Scan Successful!",
+    "complete_order": "COMPLETE ORDER",
+    "scan_bin": "SCAN BIN LOCATION",
+    "scan_sku": "SCAN PRODUCT (SKU)",
+    "success_msg": "✓ Bin recorded successfully. Proceed to scan product.",
+    "scanning_status": "SCANNING...",
+    "scan_successful": "SCAN SUCCESSFUL",
+    "grid": {
+      "title": "OPTIMIZED PICK-PATH",
+      "aisle_1": "Aisle 1",
+      "aisle_2": "Aisle 2",
+      "aisle_3": "Aisle 3",
+      "target_bin": "TARGET BIN C1",
+      "direction": "Turn left to Aisle 1, Bin C1"
+    },
+    "product": {
+      "name": "iPhone 15 Pro Max 256GB Platinum",
+      "sku": "SKU-IP15PM-PLAT",
+      "uom": "Unit: Piece"
+    },
+    "instructions": {
+      "step_1": "STEP 1: Please scan the Bin Barcode to confirm location",
+      "step_2": "STEP 2: Move items to cart and scan Product Barcode (SKU)"
+    },
+    "actions": {
+      "scan_bin": "SCAN BIN LOCATION",
+      "scan_sku": "SCAN PRODUCT (SKU)",
+      "report_issue": "REPORT ISSUE (AI QC)"
+    },
+    "routing": {
+      "title": "Grid Map",
+      "direction": "Please turn left to Aisle 1, Bin C1"
+    }
+  },
+  "ai_features": {
+    "voice": {
+      "listening": "Virtual Assistant is listening...",
+      "mock_user": "SmartWMS, I have picked 10 boxes of milk at shelf A1",
+      "mock_ai": "Confirmed picking 10 boxes of milk at shelf A1. You have 5 boxes remaining at shelf A2."
+    },
+    "vision": {
+      "analyzing": "AI Vision is analyzing image...",
+      "defect_type": "Carton packaging dented/crushed",
+      "damage_score": "Damage Score",
+      "suggestion": "Move to liquidation holding area / Dispose from inventory",
+      "actions": {
+        "submit_report": "SUBMIT INCIDENT REPORT"
+      }
+    }
+  },
+  "putaway_counting": {
+    "putaway": {
+      "instructions": "Scan receiving Pallet at Dock -> Scan suggested Bin location to putaway",
+      "confirm": "CONFIRM PUTAWAY TO BIN"
+    },
+    "counting": {
+      "system_qty": "System",
+      "actual_qty": "Actual",
+      "matched": "[ Matched ]",
+      "discrepancy": "[ Discrepancy {{quantity}} ]",
+      "sync_data": "CONFIRM & SYNC DATA"
+    }
+  },
+  "pda_config": {
+    "hardware_specs": "PDA HARDWARE SPECIFICATIONS",
+    "components": {
+      "scanner": "Laser Scanner (Zebra Engine)",
+      "mic": "Microphone (Voice Agent)"
+    },
+    "status": {
+      "online": "Online - Ready"
+    },
+    "offline_queue": {
+      "title": "OFFLINE QUEUE (LOCAL SQLITE)",
+      "status_pending": "Pending Sync",
+      "action_sync": "SYNC TO CLOUD"
+    }
+  },
+  "profile": {
+    "label": "ACCOUNT",
+    "title": "Personal Information",
+    "user": {
+      "role": "Warehouse Operator (Staff)",
+      "device": "Device",
+      "shift": "Shift"
+    },
+    "kpi": {
+      "picked_tasks": "Picked Tasks",
+      "counted_bins": "Counted Bins",
+      "efficiency": "Shift Efficiency Score"
+    },
+    "menu": {
+      "hardware_sqlite": "Hardware Config & SQLite Buffer",
+      "activity_log": "Shift Activity Log",
+      "language": "System Language",
+      "help_sop": "Help & WMS Standard Operating Procedures"
+    }
+  },
+  "analytics": {
+    "label": "ANALYTICS",
+    "title": "Logistics Analytics",
+    "today": "Today",
+    "value_label": "Inventory Value",
+    "utilization_label": "Storage Space Used",
+    "fulfillment_label": "Fulfillment Rate",
+    "efficiency_label": "Wave Process Time",
+    "chart_title": "Inbound / Outbound Throughput",
+    "zone_a": "Zone A (Cool Zone)",
+    "zone_b": "Zone B (Dry Zone)",
+    "kpi": {
+      "shift_progress": "SHIFT PROGRESS",
+      "shift_progress_desc": "Completed waves",
+      "sla_alert": "SLA ALERTS",
+      "orders": "Orders",
+      "sla_alert_desc": "Orders approaching deadline",
+      "active_staff": "ACTIVE STAFF",
+      "active_staff_desc": "Staff currently online",
+      "picking_speed": "PICKING SPEED",
+      "picking_speed_desc": "Avg shift productivity"
+    },
+    "chart": {
+      "title": "HOURLY OUTPUT (TODAY)",
+      "insight": "💡 Peak output: 14:00 reached 165 SKU"
+    },
+    "zones": {
+      "title": "ZONE COMPLETION PROGRESS",
+      "zone_a": "Zone A (Cool)",
+      "zone_b": "Zone B (Dry)"
+    }
+  },
+  "putaway": {
+    "header_label": "PUTAWAY TASK ID",
+    "step_1": "STEP 1",
+    "step_1_desc": "Scan inbound Pallet barcode at Dock C",
+    "step_2": "STEP 2",
+    "step_2_desc": "Please move and put into the suggested Bin:",
+    "bin_label": "TARGET BIN LOCATION",
+    "success_toast": "Goods put away successfully!",
+    "actions": {
+      "scan_pallet": "TAP TO SCAN PALLET",
+      "scan_bin": "SCAN BIN BARCODE TO CONFIRM",
+      "confirm_putaway": "CONFIRM BIN PLACEMENT"
+    }
+  },
+  "counting": {
+    "scan_bin_title": "SCAN TARGET BIN BARCODE...",
+    "header_label": "STOCK COUNT TASK ID",
+    "title": "Inventory Counting Execution",
+    "location_info": "Aisle 3 - Dry Zone",
+    "gps_confirmed": "Location confirmed via positioning",
+    "actual_label": "Actual:",
+    "success_toast": "Stock count report successfully submitted to Web system!",
+    "status": {
+      "locked": "LOCKED - VERIFY BIN FIRST",
+      "scanned": "SCANNED",
+      "awaiting_scan": "AWAITING PRODUCT SCAN",
+      "awaiting_bin": "Awaiting bin barcode scan for verification",
+      "bin_verified": "Location confirmed via barcode scan"
+    },
+    "actions": {
+      "confirm_sync": "CONFIRM & SYNC DATA"
+    }
+  },
+  "scanner": {
+    "product_title": "SCAN PRODUCT BARCODE...",
+    "product_hint": "Align product barcode within the frame to scan..."
+  },
+  "ai_vision": {
+    "sub_title": "DEFECT CLASSIFICATION",
+    "actions": { 
+      "submit": "SUBMIT INCIDENT REPORT",
+      "processing": "PROCESSING..."
+    },
+    "result": {
+      "title": "ANALYSIS RESULTS",
+      "defect_type": "Detected Defect Type:",
+      "damage_level": "Damage Level:",
+      "recommendation": "RECOMMENDED ACTION",
+      "recommendation_desc": "The system will automatically isolate the goods and dispatch a dedicated QC staff for retrieval once the report is submitted.",
+      "footer_note": "*Field personnel do not have the authority to alter the damaged goods workflow."
+    },
+    "mock": { "defect_value": "Dented carton packaging" },
+    "success_toast": "Incident report submitted successfully!"
+  },
+  "mobile": {
+    "checklist": {
+      "progress": "Checklist Progress",
+      "items": "Items",
+      "done": "COMPLETED",
+      "scan": "SCAN PRODUCT",
+      "pending": "PENDING"
+    }
+  }
+}
+

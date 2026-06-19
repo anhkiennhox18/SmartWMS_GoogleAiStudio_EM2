@@ -1,0 +1,301 @@
+{
+  "common": {
+    "nav": {
+      "tasks": "Nhiệm vụ",
+      "picking": "Quét hàng",
+      "analytics": "Báo cáo",
+      "profile": "Cá nhân"
+    },
+    "status": {
+      "shift": "Ca trực",
+      "cloud_synced": "Đã đồng bộ Cloud",
+      "offline": "Ngoại tuyến"
+    },
+    "language": {
+      "vi": "Tiếng Việt",
+      "en": "English"
+    },
+    "logout": "Đăng xuất"
+  },
+  "auth": {
+    "title": "Chào mừng trở lại",
+    "subtitle": "Hệ thống Quản lý Kho thông minh SmartWMS",
+    "email_label": "Tài khoản Email",
+    "email_placeholder": "Nhập email nhân viên...",
+    "password_label": "Mật khẩu",
+    "password_placeholder": "Nhập mật khẩu ca trực...",
+    "remember_me": "Ghi nhớ đăng nhập",
+    "forgot_password": "Quên mật khẩu?",
+    "submit_button": "ĐĂNG NHẬP HỆ THỐNG",
+    "loading": "ĐANG XỬ LÝ...",
+    "security_check": "Đang kiểm tra bảo mật hệ thống...",
+    "invalid_jwt": "Lỗi chứng thực Token bảo mật JWT không hợp lệ."
+  },
+  "tasks": {
+    "system_label": "HỆ THỐNG",
+    "title": "Nhiệm vụ hôm nay",
+    "today_tasks": "Nhiệm vụ hôm nay",
+    "subtitle": "XỬ LÝ NGAY!",
+    "pending_count": "{{count}} VIỆC CHỜ XỬ LÝ",
+    "ai_detect_description": "Kiểm tra Pallet gặp sự cố PAL-9042 - Khu cách ly C",
+    "received_time": "Nhận từ hệ thống: {{time}} trước",
+    "received_from_system": "Nhận từ hệ thống: {{time}} trước",
+    "received": {
+      "minutes": "Nhận từ hệ thống: {{count}} phút trước",
+      "hours": "Nhận từ hệ thống: {{count}} giờ trước"
+    },
+    "pick_location": "Khu A (Mát) - 12 mặt hàng",
+    "put_location": "Cửa nhập hàng C - 5 kiện Pallet",
+    "count_location": "Dãy kệ 3 - Khu Khô",
+    "ai_detect_location": "Cửa bến C - Nhận hàng",
+    "types": {
+      "pick": "LẤY HÀNG",
+      "put": "CẤT HÀNG",
+      "count": "KIỂM KÊ",
+      "ai_detect": "PHÂN LOẠI LỖI AI"
+    },
+    "type": {
+      "ai_vision": "Thị giác máy AI"
+    },
+    "status": {
+      "urgent": "Khẩn cấp",
+      "pending": "Chờ xử lý",
+      "in_progress": "Đang thực hiện",
+      "ai_vision": "AI VISION"
+    },
+    "filter": {
+      "title": "Bộ lọc nhiệm vụ",
+      "priority": "ĐỘ ƯU TIÊN",
+      "normal": "Thường",
+      "urgent": "Khẩn cấp",
+      "type": "LOẠI NHIỆM VỤ",
+      "pick": "Lấy hàng",
+      "put": "Cất hàng",
+      "count": "Kiểm kê",
+      "clear": "Xóa bộ lọc",
+      "apply": "Áp dụng"
+    },
+    "actions": {
+      "start": "BẮT ĐẦU",
+      "continue": "TIẾP TỤC",
+      "enable_ai": "KÍCH HOẠT AI VISION",
+      "enable_ai_vision": "BẬT AI VISION"
+    }
+  },
+  "checklist": {
+    "wave_id": "WAVE ID",
+    "overall_progress": "Tiến độ tổng quan",
+    "items": "Sản phẩm",
+    "status": {
+      "done": "Đã nhặt xong",
+      "scanning": "Đang quét",
+      "pending": "Chờ xử lý"
+    },
+    "actions": {
+      "continue": "TIẾP TỤC QUÉT HÀNG"
+    }
+  },
+  "picking": {
+    "live_status": "TRỰC TUYẾN",
+    "wave_title": "MÃ LỆNH NHẶT HÀNG",
+    "target_title": "VỊ TRÍ MỤC TIÊU",
+    "zone_info": "Khu vực mát - Khu C",
+    "progress_title": "TIẾN ĐỘ THỰC HIỆN",
+    "progress_label": "{{current}}/{{total}} Mặt hàng - {{percent}}%",
+    "items": "Mặt hàng",
+    "target_location": "Vị trí mục tiêu",
+    "scan_success": "Quét thành công!",
+    "complete_order": "HOÀN TẤT ĐƠN HÀNG",
+    "scan_bin": "QUÉT MÃ VỊ TRÍ Ô KỆ",
+    "scan_sku": "QUÉT MÃ SẢN PHẨM (SKU)",
+    "success_msg": "✓ Đã ghi nhận mã ô kệ thành công. Chuyển sang bước quét mã hàng hóa.",
+    "scanning_status": "ĐANG QUÉT...",
+    "scan_successful": "XÁC NHẬN THÀNH CÔNG",
+    "grid": {
+      "title": "SƠ ĐỒ LỘ TRÌNH DI CHUYỂN TỐI ƯU",
+      "aisle_1": "Dãy 1",
+      "aisle_2": "Dãy 2",
+      "aisle_3": "Dãy 3",
+      "target_bin": "KỆ C1 (MỤC TIÊU)",
+      "direction": "Hãy rẽ trái vào Dãy 1, Kệ C1"
+    },
+    "product": {
+      "name": "iPhone 15 Pro Max 256GB Platinum",
+      "sku": "SKU-IP15PM-PLAT",
+      "uom": "Đơn vị: Cái"
+    },
+    "instructions": {
+      "step_1": "BƯỚC 1: Hãy quét mã vạch của Ô Kệ để xác nhận vị trí",
+      "step_2": "BƯỚC 2: Di chuyển hàng vào xe đẩy và quét mã sản phẩm (SKU)"
+    },
+    "actions": {
+      "scan_bin": "QUÉT MÃ VỊ TRÍ Ô KỆ",
+      "scan_sku": "QUÉT MÃ SẢN PHẨM (SKU)",
+      "report_issue": "BÁO HÀNG LỖI (AI QC)"
+    },
+    "routing": {
+      "title": "Sơ đồ lưới (Grid Map)",
+      "direction": "Hãy rẽ trái vào Dãy 1, Kệ C1"
+    }
+  },
+  "ai_features": {
+    "voice": {
+      "listening": "Trợ lý ảo đang lắng nghe...",
+      "mock_user": "SmartWMS, tôi đã lấy 10 thùng sữa tại kệ A1",
+      "mock_ai": "Xác nhận lấy 10 thùng sữa tại kệ A1. Bạn còn 5 thùng tại kệ A2."
+    },
+    "vision": {
+      "analyzing": "AI Vision đang phân tích hình ảnh...",
+      "defect_type": "Móp méo bao bì carton",
+      "damage_score": "Điểm số hư hại (Damage Score)",
+      "suggestion": "Chuyển khu vực hàng chờ thanh lý / Hủy lưu kho",
+      "actions": {
+        "submit_report": "GỬI BIÊN BẢN SỰ CỐ"
+      }
+    }
+  },
+  "putaway_counting": {
+    "putaway": {
+      "instructions": "Quét mã Pallet nhận tại Dock -> Quét vị trí kệ gợi ý để cất",
+      "confirm": "XÁC NHẬN ĐÃ CẤT LÊN KỆ"
+    },
+    "counting": {
+      "system_qty": "Hệ thống",
+      "actual_qty": "Thực tế",
+      "matched": "[ Khớp ]",
+      "discrepancy": "[ Lệch {{quantity}} ]",
+      "sync_data": "XÁC NHẬN & ĐỒNG BỘ SỐ LIỆU"
+    }
+  },
+  "pda_config": {
+    "hardware_specs": "THÔNG SỐ PHẦN CỨNG PDA",
+    "components": {
+      "scanner": "Đầu quét Laser (Zebra Engine)",
+      "mic": "Microphone (Voice Agent)"
+    },
+    "status": {
+      "online": "Trực tuyến - Sẵn sàng"
+    },
+    "offline_queue": {
+      "title": "HÀNG ĐỢI NGOẠI TUYẾN (LOCAL SQLITE)",
+      "status_pending": "Chờ đồng bộ",
+      "action_sync": "ĐỒNG BỘ LÊN CLOUD"
+    }
+  },
+  "profile": {
+    "label": "TÀI KHOẢN",
+    "title": "Thông tin cá nhân",
+    "user": {
+      "role": "Nhân viên vận hành kho (Staff)",
+      "device": "Thiết bị",
+      "shift": "Ca trực"
+    },
+    "kpi": {
+      "picked_tasks": "Đơn đã nhặt",
+      "counted_bins": "Vị trí đã kiểm",
+      "efficiency": "Hiệu suất ca trực"
+    },
+    "menu": {
+      "hardware_sqlite": "Cấu hình phần cứng & Đệm SQLite",
+      "activity_log": "Nhật ký hoạt động ca trực",
+      "language": "Ngôn ngữ hệ thống",
+      "help_sop": "Trợ giúp & Quy trình chuẩn WMS"
+    }
+  },
+  "analytics": {
+    "label": "THỐNG KÊ",
+    "title": "Hiệu suất kho vận",
+    "today": "Hôm nay",
+    "value_label": "Giá trị lưu kho",
+    "utilization_label": "Dung lượng đã dùng",
+    "fulfillment_label": "Tỷ lệ hoàn thành",
+    "efficiency_label": "Thời gian xử lý đợt",
+    "chart_title": "Sản lượng Nhập / Xuất theo ca",
+    "zone_a": "Khu vực A (Mát)",
+    "zone_b": "Khu vực B (Khô)",
+    "kpi": {
+      "shift_progress": "TIẾN ĐỘ CA TRỰC",
+      "shift_progress_desc": "Đợt hàng đã hoàn thành",
+      "sla_alert": "CẢNH BÁO SLA",
+      "orders": "Lệnh",
+      "sla_alert_desc": "Đơn hàng sắp quá hạn",
+      "active_staff": "QUÂN SỐ HIỆN TẠI",
+      "active_staff_desc": "Nhân viên đang online",
+      "picking_speed": "TỐC ĐỘ PICKING",
+      "picking_speed_desc": "Năng suất trung bình ca"
+    },
+    "chart": {
+      "title": "SẢN LƯỢNG THEO KHUNG GIỜ (HÔM NAY)",
+      "insight": "💡 Đỉnh điểm sản lượng: Khung giờ 14:00 đạt 165 SKU"
+    },
+    "zones": {
+      "title": "TIẾN ĐỘ HOÀN THÀNH THEO PHÂN KHU",
+      "zone_a": "Khu vực A (Mát)",
+      "zone_b": "Khu vực B (Khô)"
+    }
+  },
+  "putaway": {
+    "header_label": "MÃ LỆNH CẤT HÀNG",
+    "step_1": "BƯỚC 1",
+    "step_1_desc": "Quét mã Pallet nhận hàng tại Cửa Dock C",
+    "step_2": "BƯỚC 2",
+    "step_2_desc": "Hãy di chuyển và cất vào Ô Kệ gợi ý:",
+    "bin_label": "KHU VỰC CẤT HÀNG",
+    "success_toast": "Đã cất hàng lên kệ thành công!",
+    "actions": {
+      "scan_pallet": "BẤM ĐỂ QUÉT MÃ PALLET",
+      "scan_bin": "QUÉT MÃ VẠCH Ô KỆ ĐỂ XÁC NHẬN",
+      "confirm_putaway": "XÁC NHẬN ĐÃ CẤT LÊN KỆ"
+    }
+  },
+  "counting": {
+    "scan_bin_title": "QUÉT MÃ VẠCH Ô KỆ MỤC TIÊU...",
+    "header_label": "MÃ LỆNH KIỂM KHO",
+    "title": "Thực thi Kiểm kho",
+    "location_info": "Dãy kệ 3 - Khu Khô",
+    "gps_confirmed": "Đã xác nhận đúng vị trí ô kệ bằng định vị",
+    "actual_label": "Thực tế:",
+    "success_toast": "Đã gửi biên bản kiểm kho lên hệ thống Web thành công!",
+    "status": {
+      "locked": "KHÓA - VUI LÒNG QUÉT Ô KỆ",
+      "scanned": "ĐÃ QUÉT",
+      "awaiting_scan": "CHỜ QUÉT SẢN PHẨM",
+      "awaiting_bin": "Chờ quét mã vạch để xác nhận vị trí ô kệ",
+      "bin_verified": "Vị trí ô kệ đã được quét xác nhận"
+    },
+    "actions": {
+      "confirm_sync": "XÁC NHẬN & ĐỒNG BỘ SỐ LIỆU"
+    }
+  },
+  "scanner": {
+    "product_title": "QUÉT MÃ SẢN PHẨM...",
+    "product_hint": "Đưa mã vạch sản phẩm vào khung hình để quét..."
+  },
+  "ai_vision": {
+    "sub_title": "PHÂN LOẠI HÀNG LỖI",
+    "actions": { 
+      "submit": "GỬI BIÊN BẢN SỰ CỐ",
+      "processing": "ĐANG XỬ LÝ..."
+    },
+    "result": {
+      "title": "KẾT QUẢ PHÂN TÍCH",
+      "defect_type": "Loại lỗi nhận diện:",
+      "damage_level": "Mức độ hư hại:",
+      "recommendation": "HÀNH ĐỘNG KHUYẾN NGHỊ",
+      "recommendation_desc": "Hệ thống sẽ tự động cách ly hàng hóa và điều phối nhân viên QC chuyên trách đến thu hồi sau khi biên bản được gửi.",
+      "footer_note": "*Nhân viên hiện trường không có quyền thay đổi luồng xử lý hàng hỏng"
+    },
+    "mock": { "defect_value": "Móp méo bao bì carton" },
+    "success_toast": "Đã gửi biên bản sự cố lên hệ thống thành công!"
+  },
+  "mobile": {
+    "checklist": {
+      "progress": "Tiến độ danh mục",
+      "items": "Mặt hàng",
+      "done": "ĐÃ HOÀN THÀNH",
+      "scan": "QUÉT MÃ SẢN PHẨM",
+      "pending": "CHỜ XỬ LÝ"
+    }
+  }
+}
+

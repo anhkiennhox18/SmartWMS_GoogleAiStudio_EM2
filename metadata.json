@@ -1,0 +1,8 @@
+{
+  "name": "Remix: WMS Picking Execution",
+  "description": "PDA Handheld Interface for Enterprise Warehouse Picking",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
